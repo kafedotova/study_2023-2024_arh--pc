@@ -86,12 +86,11 @@ git config --global init.defaultBranch master
  Параметр autocrlf:
 git config --global core.autocrlf input
  Параметр safecrlf:
-git config --global core.safecrlf warn (рис. 1)
+git config --global core.safecrlf warn (@fig:001)
 
 3.Генерируем пару ключей Для последующей идентификации(приватный и открытый):
-ssh-keygen -C "Имя Фамилия <work@mail>" (рис. 1)
-
-4.Далее загрузила сгенерированный открытый ключ (рис.2 и рис.3)
+ssh-keygen -C "Имя Фамилия <work@mail>" (@fig:002)
+4.Далее загрузила сгенерированный открытый ключ (@fig:003)
 
 5.Открыла терминал и создала каталог для предмета «Архитектура компьютера»:
 mkdir -p ~/work/study/2023-2024/"Архитектура компьютера"
@@ -106,9 +105,10 @@ cd ~/work/study/2023–2024/"Архитектура компьютера"
 git clone --recursive git@github.com:<user_name>/study_2023–2024_arh-pc.git
 ↪ arch-pc
 
-9. Настройка каталога курса
+9.Настройка каталога курса
 Перешла в каталог курса:
 cd ~/work/study/2023-2024/"Архитектура компьютера"/arch-pc
+Настройка каталога курса
 
 Удалила лишние файлы:
 rm package.json
@@ -122,8 +122,8 @@ git commit -am 'feat(main): make course structure'
 git push
 
 
-
-
+@fig:004
+@fig:005
 
 ![рисунок 1](image/Снимок экрана от 2023-10-05 19-03-18){#fig:001 width=70%}
 ![рисунок 2](image/Снимок экрана от 2023-10-05 20-46-26){#fig:002 width=70%}
